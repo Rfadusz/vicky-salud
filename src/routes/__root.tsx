@@ -72,14 +72,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Vicky Salud — Clínica integral" },
+      { name: "description", content: "Clínica Vicky Salud: atención médica integral, especialidades y reserva de horas online." },
+      { name: "author", content: "Vicky Salud" },
+      { property: "og:title", content: "Vicky Salud" },
+      { property: "og:description", content: "Tu salud y bienestar en manos expertas." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
