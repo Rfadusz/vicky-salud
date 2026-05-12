@@ -178,18 +178,12 @@ function Index() {
               Médicos y especialistas con vocación, experiencia y formación continua.
             </p>
           </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              { name: "Dra. Victoria Rojas", role: "Directora Médica" },
-              { name: "Dr. Andrés Pérez", role: "Cardiología" },
-              { name: "Dra. Camila Soto", role: "Pediatría" },
-            ].map((p) => (
-              <div key={p.name} className="rounded-2xl border border-border bg-card p-7">
-                <div className="h-16 w-16 rounded-full bg-primary-soft" />
-                <h3 className="mt-5 font-display text-lg text-primary-deep">{p.name}</h3>
-                <p className="text-sm text-muted-foreground">{p.role}</p>
-              </div>
-            ))}
+          <div className="mx-auto max-w-md">
+            <div className="rounded-2xl border border-border bg-card p-7 text-center">
+              <div className="mx-auto h-20 w-20 rounded-full bg-primary-soft" />
+              <h3 className="mt-5 font-display text-xl text-primary-deep">Dr. Joan Manduley</h3>
+              <p className="text-sm text-muted-foreground">Médico</p>
+            </div>
           </div>
         </div>
       </section>
