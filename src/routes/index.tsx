@@ -33,7 +33,7 @@ const services = [
 
 const professionals = [
   { img: joanImg.url, name: "Dr. Joan Manduley", role: "Médico General con enfoque en Salud Mental" },
-  { img: liliamImg.url, name: "Liliam López", role: "Directora del Centro" },
+  { img: liliamImg.url, name: "Dra. Liliam Lopez", role: "Directora del Centro" },
 ];
 
 const testimonials = [
