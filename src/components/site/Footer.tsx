@@ -17,8 +17,7 @@ export function Footer() {
         <div>
           <h4 className="font-display text-base text-primary-deep">Contacto</h4>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-            <li>Central Gonzalo Pérez Llona 300, Loc C</li>
-            <li>9250589 Maipú, Región Metropolitana</li>
+            <li>Central Gonzalo Pérez Llona 300, Loc C, Maipú, Región Metropolitana</li>
             <li>
               <a href="mailto:vickymedicoydental@gmail.com" className="hover:text-primary-deep">
                 vickymedicoydental@gmail.com

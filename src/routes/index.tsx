@@ -33,7 +33,7 @@ const services = [
 
 const professionals = [
   { img: joanImg.url, name: "Dr. Joan Manduley", role: "Médico General con enfoque en Salud Mental" },
-  { img: liliamImg.url, name: "Liliam López", role: "Directora del Centro" },
+  { img: liliamImg.url, name: "Dra. Liliam Lopez", role: "Directora del Centro" },
 ];
 
 const testimonials = [
@@ -159,26 +159,20 @@ function Index() {
 
           <div className="mx-auto mt-12 w-full max-w-4xl">
             <iframe
-              title="Agendamiento Reservo — Vicky Salud"
+              style={{ borderRadius: "10px", marginBottom: "20px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", minHeight: "850px" }}
               src="https://agendamiento.reservo.cl/makereserva/agenda/a0FSEAZ0X0eDDU135H55D2J371x7Vr"
               width="100%"
-              height="600"
+              height="850"
               frameBorder="0"
-              style={{
-                overflow: "hidden",
-                borderRadius: "10px",
-                marginBottom: "20px",
-                boxShadow: "0 4px 6px rgba(0,0,0,0.05)",
-                display: "block",
-                width: "100%",
-              }}
+              scrolling="yes"
+              allow="scripts"
             />
-            <div className="text-center text-xs text-muted-foreground">
+            <div style={{ textAlign: "center", fontSize: "0.8rem", color: "#888" }}>
               <a
                 href="https://agendamiento.reservo.cl"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-primary-deep"
+                style={{ color: "inherit", textDecoration: "none" }}
               >
                 Powered by Reservo
               </a>
