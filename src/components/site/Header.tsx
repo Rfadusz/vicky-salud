@@ -1,11 +1,13 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/vicky-logo.jpg.asset.json";
 
 const nav = [
   { label: "Inicio", to: "#inicio" },
   { label: "Especialidades", to: "#especialidades" },
   { label: "Profesionales", to: "#profesionales" },
+  { label: "Testimonios", to: "#testimonios" },
   { label: "Contacto", to: "#contacto" },
 ];
 
@@ -15,7 +17,7 @@ export function Header() {
     <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-6">
         <Link to="/" className="flex items-center gap-2">
-          <span className="grid h-8 w-8 place-items-center rounded-full bg-primary text-primary-foreground font-display text-lg">v</span>
+          <img src={logo.url} alt="Vicky Salud" className="h-9 w-9 rounded-full object-cover" />
           <span className="font-display text-lg tracking-tight text-primary-deep">Vicky Salud</span>
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
