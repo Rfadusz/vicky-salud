@@ -6,7 +6,7 @@ import {
   Brain, Stethoscope, HeartPulse, Apple, MessagesSquare, Smile,
   ArrowRight, Calendar, ShieldCheck, Quote,
 } from "lucide-react";
-import heroImg from "@/assets/hero-medico.jpg.asset.json";
+import heroImg from "@/assets/hero-fondo.jpeg.asset.json";
 import joanImg from "@/assets/joan-manduley.png.asset.json";
 import liliamImg from "@/assets/liliam-lopez.jpg.asset.json";
 
