@@ -158,22 +158,9 @@ function Index() {
           </div>
 
           <div className="mx-auto mt-12 w-full max-w-4xl">
-            <iframe
-              style={{ borderRadius: "10px", marginBottom: "20px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", minHeight: "850px" }}
-              src="https://agendamiento.reservo.cl/makereserva/agenda/a0FSEAZ0X0eDDU135H55D2J371x7Vr"
-              width="100%"
-              height="850"
-              frameBorder="0"
-              scrolling="yes"
-              allow="scripts"
-            />
+            <iframe style={{ borderRadius: "10px", marginBottom: "20px", boxShadow: "0 4px 6px rgba(0,0,0,0.05)", minHeight: "850px" }} src="https://agendamiento.reservo.cl/makereserva/agenda/30SpfTA0304gNk3w5305mID3z8c7wO" width="100%" height="850" frameBorder="0" scrolling="yes" allow="scripts"></iframe>
             <div style={{ textAlign: "center", fontSize: "0.8rem", color: "#888" }}>
-              <a
-                href="https://agendamiento.reservo.cl"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: "inherit", textDecoration: "none" }}
-              >
+              <a href="https://agendamiento.reservo.cl" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "none" }}>
                 Powered by Reservo
               </a>
             </div>
