@@ -79,13 +79,11 @@ function Index() {
             </div>
           </div>
           <div className="relative">
-            <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl bg-primary-soft shadow-[var(--shadow-soft)]">
+            <div className="w-full overflow-hidden rounded-3xl bg-primary-soft shadow-[var(--shadow-soft)]">
               <img
                 src={heroImg.url}
-                alt="Interior minimalista de la clínica Vicky Salud"
-                className="h-full w-full object-cover"
-                width={1200}
-                height={1500}
+                alt="Paisaje de bienestar Vicky Salud"
+                className="h-auto w-full object-contain"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 hidden rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-soft)] md:block">
