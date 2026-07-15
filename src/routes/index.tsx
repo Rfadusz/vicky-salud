@@ -13,10 +13,11 @@ import liliamImg from "@/assets/liliam-lopez.jpg.asset.json";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Vicky Salud — Tu salud y bienestar en manos expertas" },
-      { name: "description", content: "Clínica Vicky Salud en Maipú: medicina general, salud mental, psiquiatría, psicología, nutrición y dental. Agenda tu hora online." },
-      { property: "og:title", content: "Vicky Salud — Clínica integral" },
-      { property: "og:description", content: "Atención profesional, cálida y cercana. Agenda tu hora con nuestros especialistas." },
+      { title: "Centro Médico y Dental Vicky Salud | Maipú | Reserva tu Hora" },
+      { name: "description", content: "Atención integral en Maipú. Especialistas en Medicina General, Salud Mental, Psiquiatría, Psicología y Odontología. Agenda tu consulta médica online 24/7." },
+      { name: "keywords", content: "clínica, centro médico, dentista, salud mental, psiquiatría, psicología, medicina general, Maipú, reservar hora, médico" },
+      { property: "og:title", content: "Centro Médico y Dental Vicky Salud | Maipú | Reserva tu Hora" },
+      { property: "og:description", content: "Atención integral en Maipú. Especialistas en Medicina General, Salud Mental, Psiquiatría, Psicología y Odontología. Agenda tu consulta médica online 24/7." },
     ],
   }),
   component: Index,

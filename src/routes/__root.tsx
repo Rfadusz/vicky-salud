@@ -72,11 +72,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Vicky Salud — Clínica integral" },
-      { name: "description", content: "Clínica Vicky Salud: atención médica integral, especialidades y reserva de horas online." },
+      { title: "Centro Médico y Dental Vicky Salud | Maipú | Reserva tu Hora" },
+      { name: "description", content: "Atención integral en Maipú. Especialistas en Medicina General, Salud Mental, Psiquiatría, Psicología y Odontología. Agenda tu consulta médica online 24/7." },
+      { name: "keywords", content: "clínica, centro médico, dentista, salud mental, psiquiatría, psicología, medicina general, Maipú, reservar hora, médico" },
       { name: "author", content: "Vicky Salud" },
-      { property: "og:title", content: "Vicky Salud" },
-      { property: "og:description", content: "Tu salud y bienestar en manos expertas." },
+      { property: "og:title", content: "Centro Médico y Dental Vicky Salud | Maipú | Reserva tu Hora" },
+      { property: "og:description", content: "Atención integral en Maipú. Especialistas en Medicina General, Salud Mental, Psiquiatría, Psicología y Odontología. Agenda tu consulta médica online 24/7." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
@@ -103,7 +104,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="es-CL">
       <head>
         <HeadContent />
       </head>
