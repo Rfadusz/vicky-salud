@@ -6,9 +6,6 @@ import {
   Brain, Stethoscope, HeartPulse, Apple, MessagesSquare, Smile,
   ArrowRight, Calendar, ShieldCheck, Quote,
 } from "lucide-react";
-const heroImg = { url: "/images/hero-fondo.jpeg" };
-const joanImg = { url: "/images/joan-manduley.png" };
-const liliamImg = { url: "/images/liliam-lopez.jpg" };
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -33,8 +30,8 @@ const services = [
 ];
 
 const professionals = [
-  { img: joanImg.url, name: "Dr. Joan Manduley", role: "Médico General con enfoque en Salud Mental" },
-  { img: liliamImg.url, name: "Dra. Liliam Lopez", role: "Directora del Centro" },
+  { img: "/joan-manduley.png", name: "Dr. Joan Manduley", role: "Médico General con enfoque en Salud Mental" },
+  { img: "/liliam-lopez.jpg", name: "Dra. Liliam Lopez", role: "Directora del Centro" },
 ];
 
 const testimonials = [
@@ -82,7 +79,7 @@ function Index() {
           <div className="relative">
             <div className="w-full overflow-hidden rounded-3xl bg-primary-soft shadow-[var(--shadow-soft)]">
               <img
-                src={heroImg.url}
+                src="/hero-fondo.jpeg"
                 alt="Paisaje de bienestar Vicky Salud"
                 className="h-auto w-full object-contain"
               />

@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-const logo = { url: "/images/vicky-logo.jpg" };
 
 const nav = [
   { label: "Inicio", to: "#inicio" },
@@ -17,7 +16,7 @@ export function Header() {
     <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-6">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo.url} alt="Vicky Salud" className="h-9 w-9 rounded-full object-cover" />
+          <img src="/vicky-logo.jpg" alt="Vicky Salud" className="h-9 w-9 rounded-full object-cover" />
           <span className="font-display text-lg tracking-tight text-primary-deep">Vicky Salud</span>
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
