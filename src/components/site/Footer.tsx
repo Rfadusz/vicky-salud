@@ -1,5 +1,4 @@
 import { Instagram } from "lucide-react";
-const logo = { url: "/images/vicky-logo.jpg" };
 
 export function Footer() {
   return (
@@ -7,7 +6,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="flex items-center gap-2">
-            <img src={logo.url} alt="Vicky Salud" className="h-9 w-9 rounded-full object-cover" />
+            <img src="/vicky-logo.jpg" alt="Vicky Salud" className="h-9 w-9 rounded-full object-cover" />
             <span className="font-display text-lg text-primary-deep">Vicky Salud</span>
           </div>
           <p className="mt-4 max-w-sm text-sm text-muted-foreground">
