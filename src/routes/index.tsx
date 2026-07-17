@@ -6,9 +6,9 @@ import {
   Brain, Stethoscope, HeartPulse, Apple, MessagesSquare, Smile,
   ArrowRight, Calendar, ShieldCheck, Quote,
 } from "lucide-react";
-import heroImg from "@/assets/hero-fondo.jpeg.asset.json";
-import joanImg from "@/assets/joan-manduley.png.asset.json";
-import liliamImg from "@/assets/liliam-lopez.jpg.asset.json";
+const heroImg = { url: "/images/hero-fondo.jpeg" };
+const joanImg = { url: "/images/joan-manduley.png" };
+const liliamImg = { url: "/images/liliam-lopez.jpg" };
 
 export const Route = createFileRoute("/")({
   head: () => ({
