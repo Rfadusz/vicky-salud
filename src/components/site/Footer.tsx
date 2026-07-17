@@ -1,5 +1,5 @@
 import { Instagram } from "lucide-react";
-import logo from "@/assets/vicky-logo.jpg.asset.json";
+const logo = { url: "/images/vicky-logo.jpg" };
 
 export function Footer() {
   return (
