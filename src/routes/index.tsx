@@ -32,6 +32,8 @@ const services = [
 const professionals = [
   { img: "/joan-manduley.png", name: "Dr. Joan Manduley", role: "Médico General con enfoque en Salud Mental" },
   { img: "/liliam-lopez.jpg", name: "Dra. Liliam Lopez", role: "Directora del Centro" },
+  { img: "/dr-jose-aviles.jpg", name: "Dr. José Miguel Aviles", role: "Médico General con enfoque en Nutrición y Salud Metabólica" },
+  { img: "/dra-yennifer-garcia.jpg", name: "Dra. Yennifer García", role: "Médica General con enfoque en Nutrición y Salud Metabólica" },
 ];
 
 const testimonials = [
